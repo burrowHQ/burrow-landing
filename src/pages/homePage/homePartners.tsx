@@ -18,7 +18,7 @@ import {
 const HomePartners = () => {
   return (
     <div>
-        <div className='t1a mb-8 md:mb-16 text-left'>PARTENRS</div>
+        <div className='t1a mb-8 md:mb-16 text-left'>PARTNERS</div>
         <div className='tablet-none mobile-none'>
           <div className="relative z-10 grid grid-cols-5 gap-y-16 w-full">
             <PartnersIcon1 className="" />
@@ -69,31 +69,31 @@ const HomePartners = () => {
               <PartnersIcon3 className="transform scale-90 -ml-3" />
             </div>
             <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersIcon4 className="transform scale-90" />
+              <PartnersIcon4 className="transform scale-90 -mr-3" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersIcon5 className="transform scale-90 -ml-3 " />
+              <PartnersIcon6 className="transform scale-90 -ml-3 " />
             </div>
             <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersIcon6 className="origin-center" />
+              <PartnersIcon5 className="origin-center -mr-1" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
               <PartnersIcon7 className="transform scale-90 -ml-3" />
             </div>
             <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersIcon8 className="transform scale-90 -ml-3 origin-center" />
+              <PartnersIcon8 className="transform scale-90 origin-center -mr-2.5" />
+            </div>
+            <div className="max-w-xs w-full flex justify-start items-center">
+              <PartnersIcon10 className="transform scale-90 -ml-3" />
+            </div>
+            <div className="max-w-xs w-full flex justify-end items-center">
+              <PartnersIcon11 className="transform scale-90 origin-center -mr-2" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
               <PartnersIcon9 className="transform scale-90 -ml-3" />
             </div>
             <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersIcon10 className="transform scale-90 -ml-3 origin-center" />
-            </div>
-            <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersIcon11 className="transform scale-90 -ml-3" />
-            </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersIcon12 className="transform scale-90 -ml-3 origin-center" />
+              <PartnersIcon12 className="transform scale-90 -ml-3 origin-center  -mr-3" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
               <PartnersIcon13 className="transform scale-90 -ml-3" />
