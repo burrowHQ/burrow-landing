@@ -9,11 +9,11 @@ const HomePageRoadMap = () => {
       <div className={'t1a mb-16 text-center md:text-left title-roadmap'}>ROADMAP</div>
       <div className={'relative'}>
         <_Row
-          signBoardText={'2024 Q2'}
+          signBoardText={'2023 Q3'}
           signBoardHoleStyle={{
             width: 178
           }}
-          textList={['MarginTrading', 'LP as Collateral']}
+          textList={['Frontend improvement', 'Full functional and integrated BOS components','Revised Tokenomics']}
         />
         <_Row
           style={{
@@ -32,8 +32,8 @@ const HomePageRoadMap = () => {
           signBoardHoleStyle={{
             width: 280
           }}
-          signBoardText={'2024 Q3'}
-          textList={['Support MultiChain']}
+          signBoardText={'2023 Q4'}
+          textList={['Flash loan & Flash liquidation','Supply Tokenization','Margin trading']}
         />
         <_Row
           style={{
@@ -48,8 +48,8 @@ const HomePageRoadMap = () => {
           signBoardHoleStyle={{
             width: 323
           }}
-          signBoardText={'2024 Q4'}
-          textList={['...']}
+          signBoardText={'2024'}
+          textList={['Native stable coin','...']}
         />
         <Line />
       </div>
