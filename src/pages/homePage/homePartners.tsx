@@ -36,7 +36,7 @@ const HomePartners = () => {
           </div>
           <div className="relative z-10 grid grid-cols-5 gap-x-24 gap-y-16 mt-16 w-full">
             <PartnersPikespeak className="" />
-            <PartnersRainbow className="justify-self-center self-center origin-center" />
+            <PartnersRainbow className="justify-self-center self-center origin-center ml-20" />
          </div>
         </div>
         <div className='mobile-none pc-none'>
