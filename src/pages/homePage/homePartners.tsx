@@ -56,42 +56,42 @@ const HomePartners = () => {
          </div>
         </div>
         <div className='pc-none tablet-none'>
-        <div className="grid grid-cols-2 gap-x-4 gap-y-14 bg-gray-800 pl-8 pr-6 py-8 rounded-2xl">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-14 bg-gray-800 px-5 py-8 rounded-2xl">
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersNEAR className="transform scale-90 -ml-3" />
-            </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersBlocksec className="transform scale-110 " />
+              <PartnersNEAR className="transform scale-90 -ml-1.5" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersSlowMist className="transform scale-90 -ml-4" />
-            </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersImmunefi className="transform scale-90 -mr-3" />
+              <PartnersBlocksec className="transform scale-110 ml-2" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersPythOracle className="transform scale-90 -ml-3 " />
+              <PartnersSlowMist className="transform scale-90 -ml-2" />
             </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
+            <div className="max-w-xs w-full flex justify-start items-center">
+              <PartnersImmunefi className="transform scale-90 -ml-1.5" />
+            </div>
+            <div className="max-w-xs w-full flex justify-start items-center">
+              <PartnersPythOracle className="transform scale-90 -ml-1" />
+            </div>
+            <div className="max-w-xs w-full flex justify-start items-center">
               <PartnersRef className="origin-center -mr-1" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersOKEX className="transform scale-90 -ml-3" />
-            </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersFrax className="transform scale-90 origin-center -mr-2.5" />
+              <PartnersOKEX className="transform scale-90 -ml-1" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersCoin className="transform scale-90 -ml-3" />
-            </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersSweatEconomy className="transform scale-90 origin-center -mr-2" />
+              <PartnersFrax className="transform scale-90 origin-center -ml-1" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersPikespeak className="transform scale-90 -ml-3" />
+              <PartnersCoin className="transform scale-90 -ml-1" />
             </div>
-            <div className="max-w-xs w-full flex justify-end items-center">
-              <PartnersRainbow className="transform scale-90 -ml-3 origin-center  -mr-3" />
+            <div className="max-w-xs w-full flex justify-start items-center">
+              <PartnersSweatEconomy className="transform scale-90 origin-center -ml-2" />
+            </div>
+            <div className="max-w-xs w-full flex justify-start items-center">
+              <PartnersPikespeak className="transform scale-90 -ml-2" />
+            </div>
+            <div className="max-w-xs w-full flex justify-start items-center">
+              <PartnersRainbow className="transform scale-90 -ml-3 origin-center  -ml-1" />
             </div>
           </div>
         </div>
