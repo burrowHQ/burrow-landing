@@ -41,57 +41,57 @@ const HomePartners = () => {
         </div>
         <div className='mobile-none pc-none'>
          <div className="grid grid-cols-3 gap-x-20 gap-y-16">
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersNEAR /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersBlocksec /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersSlowMist /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersImmunefi /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersPythOracle /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersRef /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersOKEX /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersFrax /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersCoin /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersSweatEconomy /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersPikespeak /></div>
-             <div className="max-w-xs w-full flex justify-center items-center"><PartnersRainbow /></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersNEAR className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersBlocksec className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersSlowMist className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersImmunefi className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersPythOracle className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersRef className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersOKEX className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersFrax className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersCoin className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersSweatEconomy className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersPikespeak className="transform scale-90"/></div>
+             <div className="max-w-xs w-full flex justify-center items-center"><PartnersRainbow className="transform scale-90"/></div>
          </div>
         </div>
         <div className='pc-none tablet-none'>
-        <div className="grid grid-cols-2 gap-x-4 gap-y-14 bg-gray-800 px-5 py-8 rounded-2xl">
+        <div className="grid grid-cols-2 gap-x-4 gap-y-10 bg-gray-800 px-7 py-8 rounded-2xl">
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersNEAR className="transform scale-90 -ml-1.5" />
+              <PartnersNEAR className="transform scale-75 -ml-3" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersBlocksec className="transform scale-110 ml-2" />
+              <PartnersBlocksec className="transform scale-90 -ml-1.5" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersSlowMist className="transform scale-90 -ml-2" />
+              <PartnersSlowMist className="transform scale-75 -ml-5" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersImmunefi className="transform scale-90 -ml-1.5" />
+              <PartnersImmunefi className="transform scale-75 -ml-4" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersPythOracle className="transform scale-90 -ml-1" />
+              <PartnersPythOracle className="transform scale-75 -ml-3.5" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersRef className="origin-center -mr-1" />
+              <PartnersRef className="origin-center transform scale-75 -ml-4" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersOKEX className="transform scale-90 -ml-1" />
+              <PartnersOKEX className="transform scale-75 -ml-2" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersFrax className="transform scale-90 origin-center -ml-1" />
+              <PartnersFrax className="transform scale-75 origin-center -ml-3" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersCoin className="transform scale-90 -ml-1" />
+              <PartnersCoin className="transform scale-75 -ml-2" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersSweatEconomy className="transform scale-90 origin-center -ml-2" />
+              <PartnersSweatEconomy className="transform scale-75 origin-center -ml-4" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersPikespeak className="transform scale-90 -ml-2" />
+              <PartnersPikespeak className="transform scale-75 -ml-4" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersRainbow className="transform scale-90 -ml-3 origin-center  -ml-1" />
+              <PartnersRainbow className="transform scale-75 -ml-3 origin-center  -ml-4" />
             </div>
           </div>
         </div>
