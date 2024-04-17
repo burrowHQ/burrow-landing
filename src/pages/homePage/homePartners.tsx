@@ -73,7 +73,7 @@ const HomePartners = () => {
               <PartnersPythOracle className="transform scale-75 -ml-3.5" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersRef className="origin-center transform scale-75 -ml-4" />
+              <PartnersRef className="origin-center transform scale-75 -ml-3.5" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
               <PartnersOKEX className="transform scale-75 -ml-2" />
@@ -88,10 +88,10 @@ const HomePartners = () => {
               <PartnersSweatEconomy className="transform scale-75 origin-center -ml-4" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersPikespeak className="transform scale-75 -ml-4" />
+              <PartnersPikespeak className="transform scale-75 -ml-6" />
             </div>
             <div className="max-w-xs w-full flex justify-start items-center">
-              <PartnersRainbow className="transform scale-75 -ml-3 origin-center  -ml-4" />
+              <PartnersRainbow className="transform scale-75 -ml-3 origin-center  -ml-5" />
             </div>
           </div>
         </div>
