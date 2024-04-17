@@ -21,22 +21,22 @@ const HomePartners = () => {
         <div className='t1a mb-8 md:mb-16 text-left'>PARTNERS</div>
         <div className='tablet-none mobile-none'>
           <div className="relative z-10 grid grid-cols-5 gap-y-16 w-full">
-            <PartnersNEAR className="" />
-            <PartnersBlocksec className="justify-self-center self-center origin-center" />
+            <PartnersNEAR className="justify-self-start self-center origin-center" />
+            <PartnersBlocksec className="justify-self-start self-center origin-center -ml-4" />
             <PartnersSlowMist className="justify-self-center self-center origin-center" />
-            <PartnersImmunefi className="justify-self-center self-center origin-center" />
-            <PartnersPythOracle className="justify-self-end self-end origin-end" />
+            <PartnersImmunefi className="justify-self-end self-center origin-center mr-4" />
+            <PartnersPythOracle className="justify-self-end self-end origin-end mr-7" />
           </div>
           <div className="relative z-10 grid grid-cols-5 gap-x-24 gap-y-16 mt-16 w-full">
             <PartnersRef className="" />
-            <PartnersOKEX className="justify-self-center self-center origin-center" />
+            <PartnersOKEX className="justify-self-start self-center origin-center ml-3" />
             <PartnersFrax className="justify-self-center self-center origin-center" />
-            <PartnersCoin className="justify-self-center self-center origin-center" />
-            <PartnersSweatEconomy className="justify-self-end self-end origin-end" />
+            <PartnersCoin className="justify-self-center self-center origin-center ml-5" />
+            <PartnersSweatEconomy className="justify-self-end self-center origin-center mr-7" />
           </div>
           <div className="relative z-10 grid grid-cols-5 gap-x-24 gap-y-16 mt-16 w-full">
             <PartnersPikespeak className="" />
-            <PartnersRainbow className="justify-self-center self-center origin-center ml-20" />
+            <PartnersRainbow className="justify-self-center self-center origin-center ml-10" />
          </div>
         </div>
         <div className='mobile-none pc-none'>
