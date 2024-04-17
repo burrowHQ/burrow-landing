@@ -13,7 +13,7 @@ const HomePageRoadMap = () => {
           signBoardHoleStyle={{
             width: 178
           }}
-          textList={['Frontend improvement', 'Full functional and integrated BOS components', 'Revised Tokenomics']}
+          textList={['Frontend improvement', 'Full functional and integrated BOS components','Revised Tokenomics']}
         />
         <_Row
           style={{
@@ -33,7 +33,7 @@ const HomePageRoadMap = () => {
             width: 280
           }}
           signBoardText={'2023 Q4'}
-          textList={['Flash loan & Flash liquidation', 'Supply Tokenization', 'Margin trading']}
+          textList={['Flash loan & Flash liquidation','Supply Tokenization','Margin trading']}
         />
         <_Row
           style={{
@@ -49,7 +49,7 @@ const HomePageRoadMap = () => {
             width: 323
           }}
           signBoardText={'2024'}
-          textList={['Native stable coin', '...']}
+          textList={['Native stable coin','...']}
         />
         <Line />
       </div>

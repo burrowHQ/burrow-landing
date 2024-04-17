@@ -1,5 +1,6 @@
 $mobileSize: theme('screens.md');
 $smallMobileSize: theme('screens.xs');
+$pcSize: theme('screens.lg');
 
 .banner-title {
   color: #FFF;
@@ -290,5 +291,25 @@ $smallMobileSize: theme('screens.xs');
     padding: 5px;
     top: 50%;
     transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 639px) {
+  .mobile-none {
+    display: none;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .tablet-none {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pc-none {
+    display: none;
   }
 }

@@ -7,6 +7,7 @@ import HomePageRoadMap from './homePageRoadMap';
 import HomePageArticles from './homePageArticles';
 import HomePageYield from './homePageYield';
 import Datasource from '../../data/datasource';
+import HomePartners from './homePartners';
 // @ts-ignore
 const HomePageBanner = React.lazy(() => import('./homePageBanner.tsx'));
 
@@ -47,6 +48,9 @@ const HomePage = (props: BaseProps) => {
       </Section>
       <Section>
         <HomePageArticles />
+      </Section>
+      <Section>
+        <HomePartners />
       </Section>
     </LayoutContainer>
   );
