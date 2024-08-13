@@ -62,7 +62,7 @@ const ICONS = [
   // },
   {
     svg: assets.svg.discord,
-    to: 'https://discord.gg/reffinance',
+    to: 'https://discord.gg/rsMyJfHQx9',
     target: '_blank',
   },
   {
