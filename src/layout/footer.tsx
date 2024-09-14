@@ -18,7 +18,7 @@ const Footer = () => {
 
       <div className={'flex justify-center md:justify-between border-solid md:border-b border-gray-700 md:pb-10 md:mb-10'}>
         <div className={'logo hidden md:block'}>{assets.svg.logo}</div>
-        <div className="flex gap-10 md:gap-20 text-gray-300">
+        <div className="flex flex-wrap gap-4 md:gap-20 text-gray-300 justify-center md:justify-start">
           {NAVIGATIONS.map((d) => {
             return (
               <Link title={d.title} key={d.title} to={d.to}>
@@ -40,6 +40,21 @@ const NAVIGATIONS = [
   {
     title: 'Docs',
     to: 'https://docs.burrow.finance/product-docs/introduction/burrow',
+    target: '_blank',
+  },
+  {
+    title: 'Terms Of Service',
+    to: '',
+    target: '_blank',
+  },
+  {
+    title: 'Privacy Policy',
+    to: '',
+    target: '_blank',
+  },
+  {
+    title: 'Cookie Polocy',
+    to: '',
     target: '_blank',
   },
   {
