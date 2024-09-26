@@ -47,6 +47,10 @@ const NAVIGATIONS = [
     to: 'https://immunefi.com/bounty/burrow/',
     target: '_blank',
   },
+  {
+    title: 'IQ.wiki',
+    to: 'https://iq.wiki/wiki/burrow-finance/',
+  },
 ];
 
 const ICONS = [
