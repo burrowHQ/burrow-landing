@@ -25,7 +25,7 @@ const HomePage = (props: BaseProps) => {
   useEffect(() => {
     fetchData().then();
   }, []);
-
+  
   const fetchData = async () => {
     try {
       const response = await Datasource.shared.getBurrowData();
@@ -34,7 +34,6 @@ const HomePage = (props: BaseProps) => {
       console.error(e);
     }
   };
-
   return (
     <LayoutContainer className={'home-page'}>
       <React.Suspense fallback={<BannerPlaceholder />}>
